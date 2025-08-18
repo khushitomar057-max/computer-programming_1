@@ -5,7 +5,7 @@ printf("enter a number;");
 scanf("%d",&a);
 printf("enter second number;");
 scanf("%d",&b);
-sub=a+b;
+sub=a-b;
 printf("subtraction of a and b is:",sub);
 return 0;
 }
