@@ -1,15 +1,13 @@
-#include<stdio.h>
-
+#include <stdio.h>
 int main(){
-int num [10];
-printf("enter any 10 values ");
-for(int i=0;i<10;i++){
-    scanf("%d /n",&num[i]);
+int ar[5];
+printf("put 5 values in the given array \n ");
+for(int i=0;i<5;i++){
+    scanf("%d",&ar[i]);
 }
-printf(" print the given values /n");
-printf("fourth value of array is %d /n",num[3]);
-printf("seventh value of array is %d /n",num[6]);
-printf("ninth value of array is %d /n",num[8]);
-
+printf("print the given array \n ");
+for(int i=0;i<5;i++){
+    printf("%d \n",ar[i]);
+}
 return 0;
 }
